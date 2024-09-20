@@ -1,0 +1,62 @@
+form > *{
+    margin: 1em;
+}
+
+form{
+    margin: auto;
+    min-width: 25%;
+    min-height: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+form label{
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+    background-color: #CEEBEF;
+    width: 100%;
+    padding: .5em;
+    margin-bottom: 0;
+}
+
+header h5{
+    text-align: center;
+    background-color: #C4CCD3;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: .5em;
+}
+
+form header{
+    margin: 0;
+}
+
+.required-field{
+    color: red;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-item{
+    margin: 1rem;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ECF0F4;
+}
+
+.form-group{
+    margin: .5rem;
+    padding: .8rem 0;
+}
+
+form input:valid, form select:valid{
+    border: 1px solid green;
+}

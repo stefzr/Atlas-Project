@@ -1,0 +1,36 @@
+.steps-list{
+    list-style: none;
+    display: flex;
+    width:75%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.step{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #092C4C;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    margin: 1em;
+}
+
+h4, h6{
+    margin: 0;
+}
+
+li.step header{
+    padding: 0.3em;
+    border-bottom:1px solid #092C4C;
+    width: 100%;
+}
+
+li.step span{
+    text-align: justify;
+    padding: 0.5em 1em;
+}
+li.step{
+    flex: 1;
+    min-height: fit-content;
+}

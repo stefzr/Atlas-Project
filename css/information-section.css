@@ -1,0 +1,50 @@
+.information-item span{
+    background-color: #ECF0F4;
+    width: 100%;
+    text-align: center;
+}
+
+.information-list{
+    list-style: none;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.information-list li{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+}
+.information-list li header{
+    display: flex;
+    align-items: center;
+    padding: 0.25em;
+    background-color: #C4CCD3;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.64);
+}
+
+.information-list li header h4{
+    margin: 0 auto;
+}
+
+.information-list li header i{
+    color: #000;
+}
+
+li.information-item{
+    width: 100%;
+}
+
+.information-item header:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.information-item span{
+    animation: fadeIn 0.8s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
